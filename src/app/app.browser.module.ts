@@ -13,6 +13,7 @@ import { AppComponent } from './index';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
+import { RingComponent } from './ring/ring.component';
 // import { RouterModule } from '@angular/router';
 // import { appRoutes } from './app/app.routing';
 
@@ -23,7 +24,7 @@ import { AboutComponent } from './about/about.component';
   /** Root App Component */
   bootstrap: [ AppComponent ],
   /** Our Components */
-  declarations: [ AppComponent, NavigationComponent, HeaderComponent, AboutComponent ],
+  declarations: [ AppComponent, NavigationComponent, HeaderComponent, AboutComponent, RingComponent ],
   imports: [
     /**
      * NOTE: Needs to be your first import (!)
